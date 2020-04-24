@@ -50,11 +50,15 @@ export function searchhistory (data) {
   })
 }
 // 插入&更新历史记录；
-export function insertHistory (data) {
+export function insertHistory (userAccount, bookId, chapterId) {
   return request({
     url: '/api/insertHistory',
     method: 'post',
-    data: data
+    data: {
+      userAccount,
+      bookId,
+      chapterId
+    }
   })
 }
 // 查询当前用户的书架信息
@@ -71,6 +75,28 @@ export function searchbookshelf (data) {
 export function insertbooktobookshelf (userAccount, bookId) {
   return request({
     url: '/api/insertbooktobookshelf',
+    method: 'post',
+    data: {
+      userAccount,
+      bookId
+    }
+  })
+}
+// 删除书架的一条记录
+export function deleteBookForBookId (userAccount, bookId) {
+  return request({
+    url: '/api/deletebookforbookid',
+    method: 'post',
+    data: {
+      userAccount,
+      bookId
+    }
+  })
+}
+// 删除某一条历史记录
+export function deleteHistoryForBookId (userAccount, bookId) {
+  return request({
+    url: '/api/deletehistoryforbookid',
     method: 'post',
     data: {
       userAccount,
@@ -148,6 +174,27 @@ export function searchbookbyid (bookId) {
     method: 'post',
     data: {
       bookId: bookId
+    }
+  })
+}
+// 开始阅读
+export function read (bookId, chapterId) {
+  return request({
+    url: '/api/read',
+    method: 'post',
+    data: {
+      bookId,
+      chapterId
+    }
+  })
+}
+// 查询章节列表
+export function searchchaptertitle (bookId) {
+  return request({
+    url: '/api/searchchaptertitle',
+    method: 'post',
+    data: {
+      bookId
     }
   })
 }

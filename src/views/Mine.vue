@@ -48,7 +48,8 @@ export default {
       })
     },
     hint1 () {
-      this.$toast.fail('你还没有登录')
+      // this.$toast.fail('你还没有登录')
+      this.$toast('你还没有登录')
     },
     Logout (beforeClose) {
       let that = this
@@ -65,7 +66,8 @@ export default {
           this.currentUserInfo = ''
           this.delCookie('currentUser')
           localStorage.removeItem('token')
-          this.$toast.success('退出成功')
+          // this.$toast.success('退出成功')
+          this.$notify({ type: 'success', message: '退出成功', duration: '1000' })
           done()
         }, 1000)
       } else {

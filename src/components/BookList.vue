@@ -17,7 +17,15 @@
         </template>
         <template #desc>
           <div>评分：
-            <van-rate v-model=item.mark size='10px' :count="10" readonly/>
+            <!-- <van-rate v-model=item.mark size='10px' :count="10" readonly/> -->
+            <el-rate
+              style="display: inline-block;"
+              v-model=item.mark
+              disabled
+              show-score
+              text-color="#ff9900"
+              score-template="{value}">
+            </el-rate>
           </div>
           <div>热度：{{item.attention}}</div>
           <div>上架时间：{{getdate(item.shelf_time)}}</div>
@@ -37,7 +45,15 @@
         </template>
         <template #desc>
           <div>评分：
-            <van-rate v-model=item.mark size='10px' :count="10" readonly/>
+            <!-- <van-rate v-model=item.mark size='10px' :count="10" readonly/> -->
+            <el-rate
+              style="display: inline-block;"
+              v-model=item.mark
+              disabled
+              show-score
+              text-color="#ff9900"
+              score-template="{value}">
+            </el-rate>
           </div>
           <div>热度：{{item.attention}}</div>
           <div>上架时间：{{getdate(item.shelf_time)}}</div>
@@ -57,7 +73,15 @@
         </template>
         <template #desc>
           <div>评分：
-            <van-rate v-model=item.mark size='10px' :count="10" readonly/>
+            <!-- <van-rate v-model=item.mark size='10px' :count="10" readonly/> -->
+            <el-rate
+              style="display: inline-block;"
+              v-model=item.mark
+              disabled
+              show-score
+              text-color="#ff9900"
+              score-template="{value}">
+            </el-rate>
           </div>
           <div>热度：{{item.attention}}</div>
           <div>上架时间：{{getdate(item.shelf_time)}}</div>
@@ -77,7 +101,15 @@
         </template>
         <template #desc>
           <div>评分：
-            <van-rate v-model=item.mark size='10px' :count="10" readonly/>
+            <!-- <van-rate v-model=item.mark size='10px' :count="10" readonly/> -->
+            <el-rate
+              style="display: inline-block;"
+              v-model=item.mark
+              disabled
+              show-score
+              text-color="#ff9900"
+              score-template="{value}">
+            </el-rate>
           </div>
           <div>热度：{{item.attention}}</div>
           <div>上架时间：{{getdate(item.shelf_time)}}</div>

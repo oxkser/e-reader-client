@@ -8,7 +8,7 @@
       <div class="logo">
         <img
           class="logo-img"
-          src="../assets/imgs/logo.png"
+          src="../assets/imgs/logo.jpg"
           alt=""
         >
       </div>

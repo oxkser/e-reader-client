@@ -18,7 +18,7 @@
             <van-tag round type="success">{{bookDetail.sort_2}}</van-tag>
             <van-tag round type="success">{{bookDetail.sort_3}}</van-tag>
           </div>
-          <div class="number">字数：{{getNumber(bookDetail.number)}}</div>
+          <div class="number">字数：{{bookDetail.number}}万字</div>
           <div class="number">上架时间：{{getdate(bookDetail.shelf_time)}}</div>
         </div>
       </div>
@@ -33,9 +33,6 @@
         <div class="intro" >{{bookDetail.introduction}}</div>
       </div>
       <van-divider />
-      <div class="buttom-box">
-        <van-cell title="目录" is-link to="index" />
-     </div>
      </van-panel>
   </div>
 </template>
@@ -62,14 +59,18 @@ export default {
     },
     startRead () {
       this.$router.push({
-        name: 'Reader'
+        name: 'Reader',
+        params: {
+          bookId: this.bookId
+        }
       })
     },
     addBookshelf () {
       if (this.currentUserAccount) {
         this.handleInsertBookToBookshelf()
       } else {
-        this.$toast.fail('你还没有登录')
+        // this.$toast.fail('你还没有登录')
+        this.$toast('你还没有登录,不能添加到书架')
       }
     },
     async handleInsertBookToBookshelf () {
@@ -77,7 +78,6 @@ export default {
       let bookId = this.bookId
       try {
         const res = await insertbooktobookshelf(userAccount, bookId)
-        console.log(res)
         if (res.code === 1) {
           this.$toast(res.hint)
         }
@@ -85,14 +85,14 @@ export default {
 
       }
     },
-    getNumber (number) {
-      if (number == null) {
-        return '暂无数据'
-      } else {
-        let tem = (number / 10000).toFixed(2)
-        return tem + '万字'
-      }
-    },
+    // getNumber (number) {
+    //   if (number == null) {
+    //     return '暂无数据'
+    //   } else {
+    //     let tem = (number / 10000).toFixed(2)
+    //     return tem + '万字'
+    //   }
+    // },
     getdate (date) {
       if (date != null) {
         return moment(date).format('YYYY-MM-DD ')
@@ -116,7 +116,6 @@ export default {
       try {
         const res = await searchbookbyid(this.bookId)
         if (res.code === 1) {
-          console.log(res)
           this.bookDetail = res.data
         } else {
           this.$notify({ type: 'warning', message: res.hint, duration: '1000' })
@@ -134,8 +133,6 @@ export default {
     this.bookId = this.$route.params.bookId
   },
   mounted () {
-    console.log(this.currentUserAccount)
-    console.log(this.bookId)
     this.handleSearchBookById()
   }
 }

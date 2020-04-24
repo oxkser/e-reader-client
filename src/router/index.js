@@ -63,7 +63,7 @@ export default new Router({
       component: BookDetail
     },
     {
-      path: '/reader',
+      path: '/reader/:bookId',
       name: 'Reader',
       component: Reader
     }

@@ -42,10 +42,15 @@ export default {
       sort: '全部分类',
       option1: [
         { text: '全部分类', value: '全部分类' },
-        { text: '言情', value: '言情' },
-        { text: '哲学', value: '哲学' },
+        { text: '玄幻', value: '玄幻' },
+        { text: '修真', value: '修真' },
+        { text: '都市', value: '都市' },
+        { text: '历史', value: '历史' },
+        { text: '网游', value: '网游' },
         { text: '科幻', value: '科幻' },
-        { text: '科学', value: '科学' }
+        { text: '言情', value: '言情' },
+        { text: '职场', value: '职场' },
+        { text: '其他', value: '其他' }
       ]
     }
   },
