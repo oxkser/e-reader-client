@@ -1,0 +1,62 @@
+Date : 2020-05-13 17:48:54
+Directory : e:\毕业设计\E-reader-server
+Total : 27 files,  2237 codes, 115 comments, 31 blanks, all 2383 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         23 |      1,447 |        115 |         26 |      1,588 |
+| JSON       |          2 |        774 |          0 |          2 |        776 |
+| HTML       |          1 |         15 |          0 |          3 |         18 |
+| CSS        |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                    | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                       |         27 |      2,237 |        115 |         31 |      2,383 |
+| model                                                                                   |          8 |        753 |         35 |         10 |        798 |
+| public                                                                                  |          5 |         24 |         27 |          3 |         54 |
+| public\dist                                                                             |          5 |         24 |         27 |          3 |         54 |
+| public\dist\static                                                                      |          4 |          9 |         27 |          0 |         36 |
+| public\dist\static\css                                                                  |          1 |          1 |          0 |          0 |          1 |
+| public\dist\static\js                                                                   |          3 |          8 |         27 |          0 |         35 |
+| service                                                                                 |          8 |        330 |         18 |          7 |        355 |
+| util                                                                                    |          2 |         43 |          4 |          4 |         51 |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| e:\毕业设计\E-reader-server\index.js                                                        | JavaScript |        301 |         29 |          3 |        333 |
+| e:\毕业设计\E-reader-server\model\HistoryModel.js                                           | JavaScript |         96 |          5 |          0 |        101 |
+| e:\毕业设计\E-reader-server\model\InsertBookToBookshelfModel.js                             | JavaScript |         30 |          1 |          1 |         32 |
+| e:\毕业设计\E-reader-server\model\InsertHistoryModel.js                                     | JavaScript |         83 |          6 |          1 |         90 |
+| e:\毕业设计\E-reader-server\model\ReadModel.js                                              | JavaScript |         66 |          4 |          0 |         70 |
+| e:\毕业设计\E-reader-server\model\ResgModel.js                                              | JavaScript |         58 |          4 |          2 |         64 |
+| e:\毕业设计\E-reader-server\model\SearchBookshelfModel.js                                   | JavaScript |         96 |          5 |          1 |        102 |
+| e:\毕业设计\E-reader-server\model\SearchbookModel.js                                        | JavaScript |        247 |          7 |          2 |        256 |
+| e:\毕业设计\E-reader-server\model\UserModel.js                                              | JavaScript |         77 |          3 |          3 |         83 |
+| e:\毕业设计\E-reader-server\multerUtil.js                                                   | JavaScript |         12 |          2 |          2 |         16 |
+| e:\毕业设计\E-reader-server\package-lock.json                                               | JSON       |        753 |          0 |          1 |        754 |
+| e:\毕业设计\E-reader-server\package.json                                                    | JSON       |         21 |          0 |          1 |         22 |
+| e:\毕业设计\E-reader-server\public\dist\index.html                                          | HTML       |         15 |          0 |          3 |         18 |
+| e:\毕业设计\E-reader-server\public\dist\static\css\app.c7ac833693bdcd3a4ce7920f302e9502.css | CSS        |          1 |          0 |          0 |          1 |
+| e:\毕业设计\E-reader-server\public\dist\static\js\app.fc5f657ca2944fde35d0.js               | JavaScript |          1 |          0 |          0 |          1 |
+| e:\毕业设计\E-reader-server\public\dist\static\js\manifest.2ae2e69a05c33dfc65f8.js          | JavaScript |          1 |          0 |          0 |          1 |
+| e:\毕业设计\E-reader-server\public\dist\static\js\vendor.d636e10726ebf235d771.js            | JavaScript |          6 |         27 |          0 |         33 |
+| e:\毕业设计\E-reader-server\service\HistoryService.js                                       | JavaScript |         29 |          2 |          0 |         31 |
+| e:\毕业设计\E-reader-server\service\InsertBookToBookshelfService.js                         | JavaScript |         50 |          6 |          1 |         57 |
+| e:\毕业设计\E-reader-server\service\InsertHistoryService.js                                 | JavaScript |         35 |          3 |          0 |         38 |
+| e:\毕业设计\E-reader-server\service\ReadService.js                                          | JavaScript |         29 |          2 |          0 |         31 |
+| e:\毕业设计\E-reader-server\service\ResgService.js                                          | JavaScript |         28 |          2 |          3 |         33 |
+| e:\毕业设计\E-reader-server\service\SearchBookService.js                                    | JavaScript |        101 |          0 |          2 |        103 |
+| e:\毕业设计\E-reader-server\service\SearchBookshelfService.js                               | JavaScript |         29 |          1 |          1 |         31 |
+| e:\毕业设计\E-reader-server\service\UserService.js                                          | JavaScript |         29 |          2 |          0 |         31 |
+| e:\毕业设计\E-reader-server\util\DBUtil.js                                                  | JavaScript |          9 |          0 |          0 |          9 |
+| e:\毕业设计\E-reader-server\util\jwt.js                                                     | JavaScript |         34 |          4 |          4 |         42 |
+| Total                                                                                   |            |      2,237 |        115 |         31 |      2,383 |
++-----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

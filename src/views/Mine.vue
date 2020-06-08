@@ -192,6 +192,6 @@ export default {
   height: auto;
   width: 100%;
  position: absolute;
- bottom: 0;
+ bottom: 1rem;
 }
 </style>

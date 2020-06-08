@@ -1,0 +1,42 @@
+# Details
+
+Date : 2020-05-13 17:48:54
+
+Directory e:\毕业设计\E-reader-server
+
+Total : 27 files,  2237 codes, 115 comments, 31 blanks, all 2383 lines
+
+[summary](results.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [E-reader-server/index.js](/E-reader-server/index.js) | JavaScript | 301 | 29 | 3 | 333 |
+| [E-reader-server/model/HistoryModel.js](/E-reader-server/model/HistoryModel.js) | JavaScript | 96 | 5 | 0 | 101 |
+| [E-reader-server/model/InsertBookToBookshelfModel.js](/E-reader-server/model/InsertBookToBookshelfModel.js) | JavaScript | 30 | 1 | 1 | 32 |
+| [E-reader-server/model/InsertHistoryModel.js](/E-reader-server/model/InsertHistoryModel.js) | JavaScript | 83 | 6 | 1 | 90 |
+| [E-reader-server/model/ReadModel.js](/E-reader-server/model/ReadModel.js) | JavaScript | 66 | 4 | 0 | 70 |
+| [E-reader-server/model/ResgModel.js](/E-reader-server/model/ResgModel.js) | JavaScript | 58 | 4 | 2 | 64 |
+| [E-reader-server/model/SearchBookshelfModel.js](/E-reader-server/model/SearchBookshelfModel.js) | JavaScript | 96 | 5 | 1 | 102 |
+| [E-reader-server/model/SearchbookModel.js](/E-reader-server/model/SearchbookModel.js) | JavaScript | 247 | 7 | 2 | 256 |
+| [E-reader-server/model/UserModel.js](/E-reader-server/model/UserModel.js) | JavaScript | 77 | 3 | 3 | 83 |
+| [E-reader-server/multerUtil.js](/E-reader-server/multerUtil.js) | JavaScript | 12 | 2 | 2 | 16 |
+| [E-reader-server/package-lock.json](/E-reader-server/package-lock.json) | JSON | 753 | 0 | 1 | 754 |
+| [E-reader-server/package.json](/E-reader-server/package.json) | JSON | 21 | 0 | 1 | 22 |
+| [E-reader-server/public/dist/index.html](/E-reader-server/public/dist/index.html) | HTML | 15 | 0 | 3 | 18 |
+| [E-reader-server/public/dist/static/css/app.c7ac833693bdcd3a4ce7920f302e9502.css](/E-reader-server/public/dist/static/css/app.c7ac833693bdcd3a4ce7920f302e9502.css) | CSS | 1 | 0 | 0 | 1 |
+| [E-reader-server/public/dist/static/js/app.fc5f657ca2944fde35d0.js](/E-reader-server/public/dist/static/js/app.fc5f657ca2944fde35d0.js) | JavaScript | 1 | 0 | 0 | 1 |
+| [E-reader-server/public/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js](/E-reader-server/public/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js) | JavaScript | 1 | 0 | 0 | 1 |
+| [E-reader-server/public/dist/static/js/vendor.d636e10726ebf235d771.js](/E-reader-server/public/dist/static/js/vendor.d636e10726ebf235d771.js) | JavaScript | 6 | 27 | 0 | 33 |
+| [E-reader-server/service/HistoryService.js](/E-reader-server/service/HistoryService.js) | JavaScript | 29 | 2 | 0 | 31 |
+| [E-reader-server/service/InsertBookToBookshelfService.js](/E-reader-server/service/InsertBookToBookshelfService.js) | JavaScript | 50 | 6 | 1 | 57 |
+| [E-reader-server/service/InsertHistoryService.js](/E-reader-server/service/InsertHistoryService.js) | JavaScript | 35 | 3 | 0 | 38 |
+| [E-reader-server/service/ReadService.js](/E-reader-server/service/ReadService.js) | JavaScript | 29 | 2 | 0 | 31 |
+| [E-reader-server/service/ResgService.js](/E-reader-server/service/ResgService.js) | JavaScript | 28 | 2 | 3 | 33 |
+| [E-reader-server/service/SearchBookService.js](/E-reader-server/service/SearchBookService.js) | JavaScript | 101 | 0 | 2 | 103 |
+| [E-reader-server/service/SearchBookshelfService.js](/E-reader-server/service/SearchBookshelfService.js) | JavaScript | 29 | 1 | 1 | 31 |
+| [E-reader-server/service/UserService.js](/E-reader-server/service/UserService.js) | JavaScript | 29 | 2 | 0 | 31 |
+| [E-reader-server/util/DBUtil.js](/E-reader-server/util/DBUtil.js) | JavaScript | 9 | 0 | 0 | 9 |
+| [E-reader-server/util/jwt.js](/E-reader-server/util/jwt.js) | JavaScript | 34 | 4 | 4 | 42 |
+
+[summary](results.md)
